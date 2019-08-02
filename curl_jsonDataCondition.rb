@@ -13,7 +13,7 @@ data = response.body
 # Parse string to JSON value
 data = JSON.parse(data)
 
-# Condition
+# Comparison hashes
 data.each do |first|	
 	data.each do |second|
 		unless first["id"] == second["id"] 
